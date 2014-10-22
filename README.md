@@ -1,18 +1,19 @@
+#Coursera tidy data project 
 Read the file into R using read.csv
 Example code: tidyData <- read.csv("./tidyData.csv")
 
-This program assumes that:
-1. The zip file has already been downloaded from the course website
-2. The zip file has been unpacked
-3. The files are stored in their original structure and the UCI HAR Dataset folder is the working directory
+This program assumes that:  
+1. The zip file has already been downloaded from the course website     
+2. The zip file has been unpacked  
+3. The files are stored in their original structure and the UCI HAR Dataset folder is the working directory  
 
-Here are the step-by-step actions the code takes.
+Here are the step-by-step actions the code takes.  
 ####1. READ DATA FILES
 An important note here is that the Intertial Signals files are not loaded. They were provided as the raw data used to calculate all of the features; in this case we are interested in processing the features themselves. We will not be redoing the filtering and other data processing already performed to generate the feature set.
 
-1a. Load the test data
-1b. Load the training data
-1c. Load the feature information
+1a. Load the test data  
+1b. Load the training data  
+1c. Load the feature information  
 
 All of the raw data files should now be in the R workspace. 
 
